@@ -1,0 +1,14 @@
+body {
+    background-color: gray;
+    font-family: 'Arial', Courier, monospace;
+  }
+  h1 {
+    color: white;
+  }
+  p {
+    color: red;
+  }
+
+  div.a{
+    text-indent: 25px;
+  }
