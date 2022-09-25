@@ -5,10 +5,20 @@ body {
   h1 {
     color: white;
   }
-  p {
-    color: red;
-  }
 
   div.a{
     text-indent: 25px;
+  }
+  div.b{
+    text-align: center;
+  }
+
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: left;
+    content:"If I knew what license I needed, it would "
   }
