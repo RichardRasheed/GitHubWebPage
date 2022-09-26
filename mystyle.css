@@ -1,10 +1,25 @@
+.header {
+  background-color: #F56600;
+  text-align: left;
+  padding: 10px;
+  color:white;
+  border-radius: 25px;
+}
 body {
-    background-color: gray;
+    background-color: #878787;
     font-family: 'Arial', Courier, monospace;
   }
-  h1 {
-    color: white;
+
+  ul.navbar{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+  li.navitem{
+    display: inline;
   }
+
 
   div.a{
     text-indent: 25px;
@@ -15,6 +30,7 @@ body {
 
   .footer {
     position: fixed;
+    padding: 10px;
     left: 0;
     bottom: 0;
     width: 100%;
